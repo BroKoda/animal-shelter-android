@@ -18,6 +18,12 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.application_animal_shelter.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.application_animal_shelter.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
