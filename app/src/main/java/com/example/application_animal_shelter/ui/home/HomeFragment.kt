@@ -4,10 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import android.widget.Button
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import com.example.application_animal_shelter.R
 import com.example.application_animal_shelter.databinding.FragmentHomeBinding
+import com.example.application_animal_shelter.ui.news.NewsFragment
+import com.example.application_animal_shelter.ui.residents.ResidentsFragment
 
 class HomeFragment : Fragment() {
 
@@ -24,6 +26,18 @@ class HomeFragment : Fragment() {
     ): View {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
+        view?.findViewById<Button?>(R.id.button_news)?.setOnClickListener {
+            val fragment = NewsFragment()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.nav_home, fragment)?.commit()
+        }
+
+        view?.findViewById<Button?>(R.id.button_residents)?.setOnClickListener {
+            val fragment = ResidentsFragment()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.nav_home, fragment)?.commit()
+        }
 
         return root
     }
