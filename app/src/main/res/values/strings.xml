@@ -8,8 +8,6 @@
     <string name="action_settings">Beállítások</string>
 
     <string name="menu_home">Főoldal</string>
-    <string name="menu_gallery">Galery</string>
-    <string name="menu_slideshow">Slideshow</string>
     <string name="menu_residents">Lakók</string>
     <string name="menu_news">Hírek</string>
     <string name="menu_join">Csatlakozz!</string>

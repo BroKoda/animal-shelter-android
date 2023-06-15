@@ -12,10 +12,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.application_animal_shelter.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_join"
+        android:name="com.example.application_animal_shelter.ui.join.JoinFragment"
+        android:label="@string/menu_join"
+        tools:layout="@layout/fragment_join" />
 
     <fragment
         android:id="@+id/nav_contact"
@@ -23,9 +23,4 @@
         android:label="@string/menu_contact"
         tools:layout="@layout/fragment_contact" />
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.application_animal_shelter.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
 </navigation>
