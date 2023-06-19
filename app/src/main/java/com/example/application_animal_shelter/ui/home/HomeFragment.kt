@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import com.example.application_animal_shelter.R
 import com.example.application_animal_shelter.databinding.FragmentHomeBinding
 import com.example.application_animal_shelter.ui.news.NewsFragment
-import com.example.application_animal_shelter.ui.residents.ResidentsFragment
+import com.example.application_animal_shelter.ui.residents.residents
 
 class HomeFragment : Fragment() {
 
@@ -34,7 +34,7 @@ class HomeFragment : Fragment() {
         }
 
         view?.findViewById<Button?>(R.id.button_residents)?.setOnClickListener {
-            val fragment = ResidentsFragment()
+            val fragment = residents()
             val transaction = fragmentManager?.beginTransaction()
             transaction?.replace(R.id.nav_home, fragment)?.commit()
         }
