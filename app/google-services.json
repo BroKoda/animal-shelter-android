@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "652475399725",
+    "project_id": "animal-shelter-f88f2",
+    "storage_bucket": "animal-shelter-f88f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652475399725:android:5f0833302a2d94a2dc02a4",
+        "android_client_info": {
+          "package_name": "com.example.animal_shelter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652475399725-aofd0v5qbbeosocujh6qgsft9f1f6itk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4XXT5tHSu9ReYZw6MFShuvUubTXM8UHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652475399725-aofd0v5qbbeosocujh6qgsft9f1f6itk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652475399725:android:bea377fcd5ed9cb8dc02a4",
+        "android_client_info": {
+          "package_name": "com.example.application_animal_shelter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652475399725-aofd0v5qbbeosocujh6qgsft9f1f6itk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4XXT5tHSu9ReYZw6MFShuvUubTXM8UHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652475399725-aofd0v5qbbeosocujh6qgsft9f1f6itk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
