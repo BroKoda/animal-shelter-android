@@ -1,4 +1,4 @@
-package com.example.application_animal_shelter.ui.residents
+package com.example.application_animal_shelter.ui.news
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,7 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.application_animal_shelter.R
 
-class residents : Fragment() {
+class news : Fragment() {
 
     private var columnCount = 1
 
@@ -26,7 +26,7 @@ class residents : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_resident_list, container, false)
+        val view = inflater.inflate(R.layout.fragment_news_list, container, false)
 
         if (view is RecyclerView) {
             with(view) {
@@ -34,7 +34,7 @@ class residents : Fragment() {
                     columnCount <= 1 -> LinearLayoutManager(context)
                     else -> GridLayoutManager(context, columnCount)
                 }
-                adapter = RecyclerViewAdapter(ResidentContent.ITEMS)
+                adapter = RecyclerViewAdapter(NewsContent.ITEMS)
             }
         }
         return view

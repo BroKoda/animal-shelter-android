@@ -26,7 +26,6 @@ class JoinFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(JoinViewModel::class.java)
-        // TODO: Use the ViewModel
     }
 
 }
